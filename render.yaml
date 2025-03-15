@@ -2,9 +2,10 @@ services:
   - type: web
     name: speech-api
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn -w 4 -b 0.0.0.0:10000 app:app
+    region: oregon
     plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 4 -b 0.0.0.0:$PORT app:app
     envVars:
       - key: PORT
         value: "10000"
