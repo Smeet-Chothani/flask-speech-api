@@ -286,11 +286,3 @@ xxhash==3.5.0
 xyzservices==2025.1.0
 yarl==1.18.3
 zope.interface==7.0.3
-flask
-pyaudio
-webrtcvad
-speechrecognition
-assemblyai
-cryptography
-pydub
-gunicorn
