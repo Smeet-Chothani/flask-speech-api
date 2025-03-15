@@ -2,3 +2,8 @@ flask
 gunicorn
 speechrecognition
 pydub
+assemblyai
+cryptography
+sounddevice
+numpy
+  
